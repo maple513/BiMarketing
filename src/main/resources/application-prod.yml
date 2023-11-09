@@ -1,0 +1,19 @@
+server:
+    port: 8090
+    servlet:
+        context-path: /home
+
+spring:
+    datasource:
+        username: root
+        password: loki.wang-mysql8.data
+        driver-calss-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/bili
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+        properties:
+            hibernate:
+                format_sql: ture
+

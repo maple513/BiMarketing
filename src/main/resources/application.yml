@@ -1,0 +1,7 @@
+spring:
+    profiles:
+        active: dev
+
+sys:
+    yml:
+        change: changed //更改yml是否需要重启的测试,测试证明本地还是需要重启才能加载yml配置项
